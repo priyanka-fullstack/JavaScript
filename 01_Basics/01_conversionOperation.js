@@ -1,11 +1,11 @@
 let score = undefined;
 
-console.log(typeof(score));
+//console.log(typeof(score));
 
 let valueInNumber = Number(score);
 
-console.log(typeof(valueInNumber));
-console.log(valueInNumber);
+// console.log(typeof(valueInNumber));
+// console.log(valueInNumber);
 
 // "34" => easily converted to  number
 // "34abc" => NaN(not a number) and type of nan is number
@@ -17,11 +17,39 @@ console.log(valueInNumber);
 let isLoggedIn = "";
 
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+//console.log(booleanIsLoggedIn);
 
 // 1 => converts in true , 0=> converts in false, 
 //""=>converts in false, "string" => converts in true
 
 let num = 56;
 let stringNum = String(num);
-console.log(typeof(stringNum));
+//console.log(typeof(stringNum));
+
+/****************Operations******************* */
+// console.log(3+2);
+// console.log(3-2);
+// console.log(3*2);
+// console.log(3**2);
+// console.log(3%2);
+// console.log(3/2);
+
+let str1 = "Hello";
+let str2 = " Priyanka";
+let str3 = str1 + str2;
+
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+// increment operator
+let x = 4;
+let y = x++;
+console.log(`${x} , ${y}`);
+
+let a = 10;
+let b = ++a;
+console.log(`${a} , ${b}`);
