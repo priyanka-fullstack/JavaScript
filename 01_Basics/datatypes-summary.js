@@ -43,3 +43,10 @@ console.log(typeof bigNumber);
 console.log(typeof userName);
 console.log(typeof id);
 console.log(typeof myFunc);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack and heap memory
+// Stack memory is used in primitive data types
+// heap memory is used in non-primitive data types
